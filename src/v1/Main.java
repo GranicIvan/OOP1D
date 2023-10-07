@@ -14,12 +14,8 @@ public class Main {
 		
 		System.out.println("Najprofitnija igra trenutno je " + nasKazino.najprofitnijaIgra() + ".");
 		
-		
-		
+
 	}
 
-
-
-	
 	
 }
