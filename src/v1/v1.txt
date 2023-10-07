@@ -16,7 +16,7 @@ Klasom Kazino predstavljen je kazino u kom se igraci klade i sadrzi
 polje sa nizom kladionicara,
 toString() metod koji poziva toString() metod svih kladionicara u nizu,
 metod sa zaglavljem String najprofitnijaIgra() - vraca naziv igre koju igra najveci broj kladionicara sa racunom u minusu. Ako ima vise takvih igara, metod vraca prvu na koju je naisao.
- 
+
 U glavnom programu potrebno je napraviti instancu klase Kazino, inicijalizovati je sa nizom kladionicara i ispisati rezultate izvrsavanja metoda toString() i najprofitnijaIgra(). Rezultat izvrsavanja treba da bude sledeci:
 
 Pera igra poker i ima 15000 na racunu.
