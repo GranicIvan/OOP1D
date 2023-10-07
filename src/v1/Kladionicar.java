@@ -38,7 +38,9 @@ public class Kladionicar {
 		return trenutnaIgra;
 	}
 	
-	
+	public void setStanjeNaRacunu(int stanje) {
+		this.stanjeNaRacunu = stanje;
+	}
 	
 	
 }
