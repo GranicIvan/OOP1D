@@ -8,14 +8,12 @@ public class Kladionicar {
 	private int stanjeNaRacunu;
 	
 	//Konstruktor 
-	void Kladionicar(String ime, String trenutnaIgra, int stanjeNaRacunu) {
+	public Kladionicar(String ime, String trenutnaIgra, int stanjeNaRacunu) {
 		this.ime = ime;
 		setTrenutnaIgra(trenutnaIgra);
 		this.stanjeNaRacunu = stanjeNaRacunu;
 	}
 	
-	
-
 
 	public void setIme(String ime) {
 		this.ime = ime;
@@ -42,7 +40,15 @@ public class Kladionicar {
 		this.stanjeNaRacunu = stanje;
 	}
 	
+	public int getStanje() {
+		return stanjeNaRacunu;
+	}
 	
+	// ovo ce se ispisati kada pozovemo println
+	@Override
+	public String toString() {
+		return ime + " igra " + trenutnaIgra + " i ima " + stanjeNaRacunu + " na racunu";
+	}	
 }
 
 
